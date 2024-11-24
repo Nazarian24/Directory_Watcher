@@ -13,4 +13,4 @@ A Simple Shell Script, which can monitor the activities of a directory (folder) 
 - Edge Casing to handle unique problems
 - Simplicity and Speed with optimized code
 
-# Thank you for reading!
+### Thank you for reading!
