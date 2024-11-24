@@ -9,4 +9,8 @@ A Simple Shell Script, which can monitor the activities of a directory (folder) 
 5. Volia, Enjoy your directory watcher where all changes to a directory will be written to a file
 
 ## Features
+- Tons of Defensive Programming, (Trying to reduce chances of code breaking)
+- Edge Casing to handle unique problems
+- Simplicity and Speed with optimized code
 
+# Thank you for reading!
