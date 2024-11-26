@@ -33,8 +33,14 @@ if [ ! -d "$dir_name" ]; then
     mkdir -p "$dir_path/$dir_name"
     echo "Directory created at '$dir_path/$dir_name'."
   else
-    echo "Okay, terminating program..."
-    exit 1
+	  while true; do
+      echo "Did you mean to input the name of an already existing directory? If so, please input the proper name and path:"
+      read dir_name
+      if [ -d "$dir_name" ]; then
+        echo "Directory '$dir_name' exists."
+        break
+      fi
+    done
   fi
 fi
 
